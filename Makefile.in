@@ -1043,6 +1043,12 @@ uninstall-am: uninstall-binPROGRAMS uninstall-dvi-am uninstall-html-am \
 	uninstall-pdf-am uninstall-ps-am
 
 
+# custom targets
+resume: Makefile doc/syzdek-resume.texi doc/syzdek-resume.pdf doc/syzdek-resume.html
+	cp doc/syzdek-resume.html  $(srcdir)/doc/david.syzdek-resume.html
+	cp doc/syzdek-resume.pdf   $(srcdir)/doc/david.syzdek-resume.pdf
+	$(MAKEINFO) --plaintext -o $(srcdir)/doc/david.syzdek-resume.txt $(srcdir)/doc/syzdek-resume.texi 
+
 # local targets
 install-exec-local:
 

@@ -3578,5 +3578,11 @@ $as_echo "$as_me:       make info" >&6;}
 $as_echo "$as_me:       make pdf" >&6;}
 { $as_echo "$as_me:$LINENO:  " >&5
 $as_echo "$as_me:  " >&6;}
+{ $as_echo "$as_me:$LINENO:    Make All Formats:" >&5
+$as_echo "$as_me:    Make All Formats:" >&6;}
+{ $as_echo "$as_me:$LINENO:       make resume" >&5
+$as_echo "$as_me:       make resume" >&6;}
+{ $as_echo "$as_me:$LINENO:  " >&5
+$as_echo "$as_me:  " >&6;}
 
 # end of autoconf script
