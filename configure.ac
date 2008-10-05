@@ -80,5 +80,8 @@ AC_MSG_NOTICE([      make html])
 AC_MSG_NOTICE([      make info])
 AC_MSG_NOTICE([      make pdf])
 AC_MSG_NOTICE([ ])
+AC_MSG_NOTICE([   Make All Formats:])
+AC_MSG_NOTICE([      make resume])
+AC_MSG_NOTICE([ ])
 
 # end of autoconf script
