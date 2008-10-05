@@ -1,0 +1,301 @@
+\input texinfo @c -*-texinfo-*-
+@c %**start of header
+@c
+@c  $Id: $
+@c
+@c  Resume of David M. Syzdek
+@c  Copyright (C) 2007 David M. Syzdek
+@setfilename syzdek-resume.info
+@settitle David M. Syzdek
+@c For double-sided printing, uncomment:
+@c @setchapternewpage odd
+@c %**end of header
+
+@include version-syzdek-resume.texi
+
+@set TITLE David M. Syzdek
+@set NAME David M. Syzdek
+@set EMAIL syzdek@@bindlebinaries.net
+@set URL http://www.syzdek.net/@/~syzdek/
+@set URL http://www.bindlebinaries.net/about/
+@set DAYPHONE 907-550-8389
+@set NIGHTPHONE 907-980-1151
+@set ADDRESS1 Post Office Box 110673
+@set ADDRESS2 Anchorage, Alaska  99511
+@set ADDRESS3 United States of America
+
+@c Put everything in one index (arbitrarily chosen to be the concept index).
+@c @syncodeindex vr cp
+@c @syncodeindex fn cp
+@c @syncodeindex tp cp
+@c @synindex pg cp
+
+@c @titlepage
+@c @title @value{NAME}
+@c @subtitle updated @value{UPDATED}
+@c @author 
+@c 
+@c @end titlepage
+
+@setchapternewpage off
+@headings off
+@everyfooting @value{VERSION} @| @thistitle @| page @thispage
+
+@ifnottex                                                  
+@node Top                                                                            
+@top Resume                                                              
+@menu                                                             
+* People::
+@end menu                                                                                                              
+@end ifnottex 
+
+@ifnottex                                                  
+@node People                                                                       
+@unnumbered People                                                             
+@menu                                                             
+* David M. Syzdek::
+@end menu                                                                                                              
+@end ifnottex 
+
+@node David M. Syzdek
+@unnumberedsec David M. Syzdek
+@multitable @columnfractions .60 .40 
+@item @value{ADDRESS1}
+@tab @value{DAYPHONE} (day)
+@item @value{ADDRESS2}
+@tab @value{NIGHTPHONE} (evenings) 
+@item
+@tab
+@item @uref{@value{URL}}
+@tab @value{EMAIL}
+@end multitable
+@ifnottex                                                                  
+@menu
+* Summary of Qualifications::
+* Technical Expertise::
+* Professional Experience::
+* Additional Experience::
+@end menu                                                                                                              
+@end ifnottex
+
+@node Summary of Qualifications
+@unnumberedsubsec Summary of Qualifications
+
+@itemize @bullet
+@item Possess expertise in creating portable programs and libraries with emphasis on using the development tools gcc, autoconf, libtool, and automake.
+@item Solid understanding of Unix environments such as Slackware Linux, FreeBSD, Solaris, and OS X.
+@item Demonstrated knowledge of developing Unix daemons and related concepts such as Signal handling, process forking, logging, PID file management, and chrooting.
+@item Strong knowledge of LDAP design (both Sun One Directory Server and OpenLDAP) and of integrating applications with LDAP.
+@end itemize
+
+
+@c The objective of this resume is to obtain a position as a unix software developer and Linux systems administrator that utilizes my five years of Linux, Solaris, and FreeBSD administration experience, software development experience, and infrastructure design experience.
+
+@c I have experience with successfully migrating legacy, stand alone, and acquired Unix based systems into unified or updated core systems.  This experience includes e-mail migrations and upgrades, web server migrations, radius migrations, and DNS migrations.  I also have experience designing, developing, and implementing various user interfaces for interacting with support databases or provisioning systems.  These interfaces have used combinations of XML, HTML, JavaScript, Perl, Bash, M4 and C. Working with remote Unix like operating systems such as Linux, FreeBSD, and Solaris, I have had to develop management scripts and daemons to simplify or completely automate tasks. I have experience using open source development tools such as GNU automake, GNU autoconf, GNU libtool, GNU Compiler Collection, Concurrent Versioning System, and Revision Control System. I also have limited experience with commercial development tools such as Microsoft Visual Studio and Apple Xcode.  For most of my professional career I have had to be resourceful, self motivated, flexible, and self educated.
+
+@node Technical Expertise
+@unnumberedsubsec Technical Expertise
+@table @b
+@item Languages
+C,
+Objective-C,
+C++,
+Perl,
+PHP,
+Bash,
+JavaScript,
+CSS,
+SSI,
+M4,
+and XML
+@item Documentation Formats
+HTML,
+Perl Plain Old Documentation (POD),
+doxygen,
+Unix Man Pages,
+and Texinfo 
+@item APIs
+LDAP,
+MinGW,
+AppKit/Cocoa (OS X),
+UIKit/Cocoa (iPhone),
+Libtool,
+Pthreads,
+Berkeley DB,
+and Syslog
+@item Concepts
+Unix Daemons,
+Networks,
+BSD Socket Programming (TCP and UDP),
+Portable Programming,
+CGI Programming,
+Cross-Compiling,
+Library Programming,
+Perl Modules,
+Source Code Control/Revision Control,
+Change Management,
+Software Documentation,
+and Open Source Licenses (GPL, LGPL, and FDL)
+@item Protocols
+DNS,
+FTP,
+HTTP,
+HTTPS,
+IMAP,
+LDAP,
+NFS,
+NTP,
+SMB/CIFS,
+SMTP,
+SNMP,
+OSPP,
+POP3,
+and SSH
+@item Standards
+Single Unix Specification (SUSv3),
+GNU Coding Standards,
+Filesystem Hierarchy Standard (FHS),
+and External Data Representation Standard (XDR/RFC1014)
+@item Development Tools
+GCC,
+GNU Make,
+GNU Libtool,
+GNULib,
+GNU Libc,
+Autoconf,
+Automake,
+CVS,
+Xcode,
+and Texinfo
+@item Software
+Slackware Linux,
+FreeBSD,
+Solaris,
+Apple OS X,
+and Windows (98, 2000, XP)
+@end table
+
+
+@node Professional Experience
+@unnumberedsubsec Professional Experience
+
+@table @b
+@item Alaska Communications Systems @* Anchorage, Alaska
+@b{Acting IP Engineer II} (2003 - current)
+@*
+Primary responsibilities include maintaining SunOne Directory Servers, 
+Apache servers, ProFTP servers, and legacy servers from acquired ISP.  Secondary responsibilities
+include writing internal applications for the ISP business unit and other departments as
+required.
+@itemize @minus
+@item Developed a web portal that allows staff to provision virtual domains and allows subscribers to self-manage users within their respective domains.
+@item Developed a session management system that authenticates and tracks subscribers.  The system allows multiple web interfaces to share a single session identifier for a subscriber, thus eliminating the need for the subscriber to present credentials to each interface.
+@item Developed provisioning system that allowed multiple billing systems from different business units to provision services on a shared LDAP entry.  This allowed services maintained from different billing systems for an individual subscriber to share a single user name and password.
+@item Wrote a library and client that implemented the Over-the-air Service Provisioning Protocol, a proprietary protocol developed by Logica intended to allow clients on TCP/IP networks to communicate with mobile phones.  The client is used by an IVR to activate new mobile phones and update Preferred Roaming Lists (PRL) of existing mobile phones.
+@item Wrote miscellaneous web interfaces for managing MMS, WAP, and EVDO service provisioning.
+@item Wrote a library and utility that creates NAM data blocks for either IS-683-A or IS-683-C compatible mobile phones.
+@item Implemented and maintained a CVS server to manage software packages developed by IP Engineering.
+@end itemize
+@b{Systems Administrator I} (August 2001 - 2003)
+@*
+Primary responsibilities included maintaining DNS servers, iPlanet Messaging Servers, iPlanet
+Directory Servers, Apache servers, ProFTP servers, and legacy servers from acquired ISP. 
+Secondary responsibilities included writing simple utilities to assist support staff.
+@itemize @minus
+@item Using Bind 9, designed a DNS infrastructure which implemented split views and split horizons.
+@item Developed Unix tools using Perl, Bash, and C to simplify server management and to assist technical support personnel.
+@item Developed multiple Perl CGI interfaces which allowed staff controlled access to LDAP data and radius data.
+@item Developed an iPlanet Messenger Express plug-in using CGI scripting and JavaScript. The plug-in added the ability for subscribers to manage e-mail filters. This involved writing a basic Sieve rule parser in JavaScript.
+@item Completed a user audit of an acquired company's provisioning systems against the company's billing database. Services were provisioned using Unix passwd and shadow files and the billing information was stored in MS SQL databases.
+@item Planned and executed an upgrade of an iPlanet Messaging Server that served roughly 65,000 users. The upgrade including moving from a Sun 4400 to a Sun V880, moving the message store from NFS shares to local arrays, and upgrading the software from version 5.1 to version 5.2.  Detailed plans, time lines accurate to the minute, and proof of repetitive testing was provided to management prior to the actual upgrade.
+@item Planned and executed the migration of an acquired ISP (MosquitoNet) consisting of roughly 6,000 users into ACS's ISP infrastructure.  This included coordinated e-mail, web, FTP, DNS, and radius migrations.
+@item Implemented a FTP infrastructure that uses LDAP for authentication and supports virtual domains.  Created custom LDAP schema to support infrastructure.
+@item Developed a system that uses data from LDAP and local templates to dynamically provision and re-provision virtual domains.
+@item Was primary administrator for DNS servers, iPlanet Messaging Servers, LDAP servers, and Unix web servers of the ISP business unit.
+@end itemize
+
+@item HB Technical Services @* Fairbanks, Alaska
+@b{Systems Administrator} (April 2001)
+@c @b{Systems Administrator} (2001)
+@itemize @minus
+@item Used OpenLDAP on Linux and OpenBSD to provide global address book and roaming Netscape profile solutions for small businesses.
+@item Used Linux and Samba as replacements for Microsoft Windows servers in small business environments. The replacements were used for primary domain controllers, file servers, roaming profiles, and print servers.
+@item Provided OpenBSD firewalls for small businesses.
+@item Produced and maintained Linux servers which provided Internet services such as web, e-mail, DNS, FTP, DHCP, and Webmail for small businesses.
+@item Provided on site consulting and support for small networks, workstations, and Linux and OpenBSD servers.  
+@end itemize
+
+@item Internet Plus LLC dba MosquitoNet@*Fairbanks, Alaska
+@b{Systems Administrator} (May 2001 - August 2001)
+@c @b{Systems Administrator} (2001)
+@itemize @minus
+@item Set up and maintained MySQL databases for virtual hosting subscribers.
+@item Assisted with the initial migration administrative tasks from MosquitoNet to ACS.
+@item Initiated the audit of MosquitoNet's provisioning systems.
+@item Implemented new web mail system.
+@item Managed daily operational tasks, resolved escalations from technical support, and provided a 24 hour response to system outages.
+@end itemize
+@b{Computer Technician} (March 2000 - April 2001)
+@c @b{Computer Technician} (2000 - 2001)
+@itemize @minus
+@item Installed and configured 802.11b networking equipment at subscriber premises.
+@item Provided technical support to wireless and business subscribers.  Provided on site response in the event of extended subscriber outages.
+@item Acted as a sales person to expand MosquitoNet's user base.
+@item Provided on site computer repair.
+@item Installed simple office networks for small businesses.
+@end itemize
+@b{Subscriber Support Technician} (January 2000 - March 2000)
+@c @b{Subscriber Support Technician} (2000)
+@itemize @minus
+@item Provided technical support to email, dial-up, and virtual hosting subscribers.
+@item Assisted in the computer repair shop as needed.
+@end itemize
+
+@c @item Sears Roebuck and Company@* Fairbanks, Alaska
+@c @b{Sales Associate} (October 1998 - April 2000)
+@c @itemize @minus 
+@c @item Educated customers about basic home computing and Internet use. 
+@c @item Provided telephone support for customers having difficulties with their new computers.
+@c @item Demonstrated and sold computers, sewing machines, and vacuums available at our location.
+@c @item Maintained sales floor and performed duties as assigned.
+@c @end itemize 
+
+@end table
+
+@node Additional Experience
+@unnumberedsubsec Additional Experience
+
+@table @b
+
+@item Roman Numeral Conversion API @* @uref{http://roman.sourceforge.net/}
+The Roman Numeral Conversion API is a small project which consists of a
+library and utilities which convert values for Roman numerals and Arabic
+numerals. The library and utility will compile on POSIX systems and on
+Microsoft Operating systems. The source code was written to adhere to the GNU
+Coding Standards.
+
+@item magic8ball @* @uref{http://www.bindlebinaries.net/products/magic8ball/}
+magic8ball is a simple iPhone application which simulates the toy created in
+the late 1940s. This application makes use of the device's accelerometer to
+determine if a new message should be displayed.  This application is available
+for iPhones and iPod Touches running OS 2.0.
+
+@item RPNCalc @* @uref{http://www.bindlebinaries.net/products/rpncalc/}
+RPNCalc is implements a calculator using Reverse Polish Notation. This
+application makes use of CoreGraphics to generate the button images. The UIView
+objects are dynamically created without the use of Interface Builder so that a
+future version will be able to implement configurable button layouts and color
+schemes. The calcator was designed using MVC so that the keyboard layouts can
+be changed using view transitions while maintaining persistent calculator
+state.
+
+@item Astute @* @uref{http://www.syzdek.net/downloads/astute/}
+Astute is an imitation of the board game Boggle.  This application is being 
+developed using the Interface Builder and makes use of multiple windows and 
+keyboard inputs.  This application has not yet been released and is still in
+development.
+
+
+@end table
+
+@bye
