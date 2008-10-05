@@ -1,0 +1,259 @@
+Resume
+******
+
+People
+******
+
+David M. Syzdek
+===============
+
+Post Office Box 110673                      907-550-8389 (day)
+Anchorage, Alaska  99511                    907-980-1151 (evenings)
+
+`http://www.bindlebinaries.net/about/'      syzdek@bindlebinaries.net
+
+
+Summary of Qualifications
+-------------------------
+
+   * Possess expertise in creating portable programs and libraries with
+     emphasis on using the development tools gcc, autoconf, libtool,
+     and automake.
+
+   * Solid understanding of Unix environments such as Slackware Linux,
+     FreeBSD, Solaris, and OS X.
+
+   * Demonstrated knowledge of developing Unix daemons and related
+     concepts such as Signal handling, process forking, logging, PID
+     file management, and chrooting.
+
+   * Strong knowledge of LDAP design (both Sun One Directory Server and
+     OpenLDAP) and of integrating applications with LDAP.
+
+Technical Expertise
+-------------------
+
+Languages
+     C, Objective-C, C++, Perl, PHP, Bash, JavaScript, CSS, SSI, M4,
+     and XML
+
+Documentation Formats
+     HTML, Perl Plain Old Documentation (POD), doxygen, Unix Man Pages,
+     and Texinfo
+
+APIs
+     LDAP, MinGW, AppKit/Cocoa (OS X), UIKit/Cocoa (iPhone), Libtool,
+     Pthreads, Berkeley DB, and Syslog
+
+Concepts
+     Unix Daemons, Networks, BSD Socket Programming (TCP and UDP),
+     Portable Programming, CGI Programming, Cross-Compiling, Library
+     Programming, Perl Modules, Source Code Control/Revision Control,
+     Change Management, Software Documentation, and Open Source
+     Licenses (GPL, LGPL, and FDL)
+
+Protocols
+     DNS, FTP, HTTP, HTTPS, IMAP, LDAP, NFS, NTP, SMB/CIFS, SMTP, SNMP,
+     OSPP, POP3, and SSH
+
+Standards
+     Single Unix Specification (SUSv3), GNU Coding Standards,
+     Filesystem Hierarchy Standard (FHS), and External Data
+     Representation Standard (XDR/RFC1014)
+
+Development Tools
+     GCC, GNU Make, GNU Libtool, GNULib, GNU Libc, Autoconf, Automake,
+     CVS, Xcode, and Texinfo
+
+Software
+     Slackware Linux, FreeBSD, Solaris, Apple OS X, and Windows (98,
+     2000, XP)
+
+Professional Experience
+-----------------------
+
+Alaska Communications Systems
+     Anchorage, Alaska
+     Acting IP Engineer II (2003 - current)
+     Primary responsibilities include maintaining SunOne Directory
+     Servers, Apache servers, ProFTP servers, and legacy servers from
+     acquired ISP.  Secondary responsibilities include writing internal
+     applications for the ISP business unit and other departments as
+     required.
+        - Developed a web portal that allows staff to provision virtual
+          domains and allows subscribers to self-manage users within
+          their respective domains.
+
+        - Developed a session management system that authenticates and
+          tracks subscribers.  The system allows multiple web
+          interfaces to share a single session identifier for a
+          subscriber, thus eliminating the need for the subscriber to
+          present credentials to each interface.
+
+        - Developed provisioning system that allowed multiple billing
+          systems from different business units to provision services
+          on a shared LDAP entry.  This allowed services maintained
+          from different billing systems for an individual subscriber
+          to share a single user name and password.
+
+        - Wrote a library and client that implemented the Over-the-air
+          Service Provisioning Protocol, a proprietary protocol
+          developed by Logica intended to allow clients on TCP/IP
+          networks to communicate with mobile phones.  The client is
+          used by an IVR to activate new mobile phones and update
+          Preferred Roaming Lists (PRL) of existing mobile phones.
+
+        - Wrote miscellaneous web interfaces for managing MMS, WAP, and
+          EVDO service provisioning.
+
+        - Wrote a library and utility that creates NAM data blocks for
+          either IS-683-A or IS-683-C compatible mobile phones.
+
+        - Implemented and maintained a CVS server to manage software
+          packages developed by IP Engineering.
+     Systems Administrator I (August 2001 - 2003)
+     Primary responsibilities included maintaining DNS servers, iPlanet
+     Messaging Servers, iPlanet Directory Servers, Apache servers,
+     ProFTP servers, and legacy servers from acquired ISP.  Secondary
+     responsibilities included writing simple utilities to assist
+     support staff.
+        - Using Bind 9, designed a DNS infrastructure which implemented
+          split views and split horizons.
+
+        - Developed Unix tools using Perl, Bash, and C to simplify
+          server management and to assist technical support personnel.
+
+        - Developed multiple Perl CGI interfaces which allowed staff
+          controlled access to LDAP data and radius data.
+
+        - Developed an iPlanet Messenger Express plug-in using CGI
+          scripting and JavaScript. The plug-in added the ability for
+          subscribers to manage e-mail filters. This involved writing a
+          basic Sieve rule parser in JavaScript.
+
+        - Completed a user audit of an acquired company's provisioning
+          systems against the company's billing database. Services were
+          provisioned using Unix passwd and shadow files and the
+          billing information was stored in MS SQL databases.
+
+        - Planned and executed an upgrade of an iPlanet Messaging
+          Server that served roughly 65,000 users. The upgrade
+          including moving from a Sun 4400 to a Sun V880, moving the
+          message store from NFS shares to local arrays, and upgrading
+          the software from version 5.1 to version 5.2.  Detailed
+          plans, time lines accurate to the minute, and proof of
+          repetitive testing was provided to management prior to the
+          actual upgrade.
+
+        - Planned and executed the migration of an acquired ISP
+          (MosquitoNet) consisting of roughly 6,000 users into ACS's
+          ISP infrastructure.  This included coordinated e-mail, web,
+          FTP, DNS, and radius migrations.
+
+        - Implemented a FTP infrastructure that uses LDAP for
+          authentication and supports virtual domains.  Created custom
+          LDAP schema to support infrastructure.
+
+        - Developed a system that uses data from LDAP and local
+          templates to dynamically provision and re-provision virtual
+          domains.
+
+        - Was primary administrator for DNS servers, iPlanet Messaging
+          Servers, LDAP servers, and Unix web servers of the ISP
+          business unit.
+
+HB Technical Services
+     Fairbanks, Alaska
+     Systems Administrator (April 2001)
+        - Used OpenLDAP on Linux and OpenBSD to provide global address
+          book and roaming Netscape profile solutions for small
+          businesses.
+
+        - Used Linux and Samba as replacements for Microsoft Windows
+          servers in small business environments. The replacements were
+          used for primary domain controllers, file servers, roaming
+          profiles, and print servers.
+
+        - Provided OpenBSD firewalls for small businesses.
+
+        - Produced and maintained Linux servers which provided Internet
+          services such as web, e-mail, DNS, FTP, DHCP, and Webmail for
+          small businesses.
+
+        - Provided on site consulting and support for small networks,
+          workstations, and Linux and OpenBSD servers.
+
+Internet Plus LLC dba MosquitoNet
+     Fairbanks, Alaska
+     Systems Administrator (May 2001 - August 2001)
+        - Set up and maintained MySQL databases for virtual hosting
+          subscribers.
+
+        - Assisted with the initial migration administrative tasks from
+          MosquitoNet to ACS.
+
+        - Initiated the audit of MosquitoNet's provisioning systems.
+
+        - Implemented new web mail system.
+
+        - Managed daily operational tasks, resolved escalations from
+          technical support, and provided a 24 hour response to system
+          outages.
+     Computer Technician (March 2000 - April 2001)
+        - Installed and configured 802.11b networking equipment at
+          subscriber premises.
+
+        - Provided technical support to wireless and business
+          subscribers.  Provided on site response in the event of
+          extended subscriber outages.
+
+        - Acted as a sales person to expand MosquitoNet's user base.
+
+        - Provided on site computer repair.
+
+        - Installed simple office networks for small businesses.
+     Subscriber Support Technician (January 2000 - March 2000)
+        - Provided technical support to email, dial-up, and virtual
+          hosting subscribers.
+
+        - Assisted in the computer repair shop as needed.
+
+
+Additional Experience
+---------------------
+
+Roman Numeral Conversion API
+     `http://roman.sourceforge.net/'
+     The Roman Numeral Conversion API is a small project which consists
+     of a library and utilities which convert values for Roman numerals
+     and Arabic numerals. The library and utility will compile on POSIX
+     systems and on Microsoft Operating systems. The source code was
+     written to adhere to the GNU Coding Standards.
+
+magic8ball
+     `http://www.bindlebinaries.net/products/magic8ball/'
+     magic8ball is a simple iPhone application which simulates the toy
+     created in the late 1940s. This application makes use of the
+     device's accelerometer to determine if a new message should be
+     displayed.  This application is available for iPhones and iPod
+     Touches running OS 2.0.
+
+RPNCalc
+     `http://www.bindlebinaries.net/products/rpncalc/'
+     RPNCalc is implements a calculator using Reverse Polish Notation.
+     This application makes use of CoreGraphics to generate the button
+     images. The UIView objects are dynamically created without the use
+     of Interface Builder so that a future version will be able to
+     implement configurable button layouts and color schemes. The
+     calcator was designed using MVC so that the keyboard layouts can
+     be changed using view transitions while maintaining persistent
+     calculator state.
+
+Astute
+     `http://www.syzdek.net/downloads/astute/'
+     Astute is an imitation of the board game Boggle.  This application
+     is being developed using the Interface Builder and makes use of
+     multiple windows and keyboard inputs.  This application has not
+     yet been released and is still in development.
+
+
