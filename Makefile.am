@@ -53,7 +53,7 @@ do_subst = sed \
 
 
 # custom targets
-resume: Makefile doc/syzdek-resume.texi doc/syzdek-resume.pdf doc/syzdek-resume.html
+resume: Makefile doc/syzdek-resume.info doc/syzdek-resume.texi doc/syzdek-resume.pdf doc/syzdek-resume.html
 	cp doc/syzdek-resume.html  $(srcdir)/doc/david.syzdek-resume.html
 	cp doc/syzdek-resume.pdf   $(srcdir)/doc/david.syzdek-resume.pdf
 	$(MAKEINFO) --html --no-split --no-headers -o $(srcdir)/doc/david.syzdek-resume.html $(srcdir)/doc/syzdek-resume.texi
