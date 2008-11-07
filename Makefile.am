@@ -56,6 +56,7 @@ do_subst = sed \
 resume: Makefile doc/syzdek-resume.texi doc/syzdek-resume.pdf doc/syzdek-resume.html
 	cp doc/syzdek-resume.html  $(srcdir)/doc/david.syzdek-resume.html
 	cp doc/syzdek-resume.pdf   $(srcdir)/doc/david.syzdek-resume.pdf
+	$(MAKEINFO) --html --no-split --no-headers -o $(srcdir)/doc/david.syzdek-resume.html $(srcdir)/doc/syzdek-resume.texi
 	$(MAKEINFO) --plaintext -o $(srcdir)/doc/david.syzdek-resume.txt $(srcdir)/doc/syzdek-resume.texi 
 
 # local targets
