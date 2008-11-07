@@ -16,19 +16,20 @@ Anchorage, Alaska  99511                    907-980-1151 (evenings)
 Summary of Qualifications
 -------------------------
 
-   * Possess expertise in creating portable programs and libraries with
-     emphasis on using the development tools gcc, autoconf, libtool,
-     and automake.
+   * Possess expertise in creating portable programs and libraries
+     through the use of development tools such as GCC, autoconf,
+     libtool, and automake.
 
    * Solid understanding of Unix environments such as Slackware Linux,
      FreeBSD, Solaris, and OS X.
 
-   * Demonstrated knowledge of developing Unix daemons and related
-     concepts such as Signal handling, process forking, logging, PID
-     file management, and chrooting.
+   * Experience in developing Unix daemons which incorporate Signal
+     handling, process forking, logging, PID file management, chroot
+     environments, and threads.
 
-   * Strong knowledge of LDAP design (both Sun One Directory Server and
-     OpenLDAP) and of integrating applications with LDAP.
+   * Strong knowledge of LDAP design including the deployment of Sun
+     One Directory Server and OpenLDAP servers, the integration with
+     applications, and schema development.
 
 Technical Expertise
 -------------------
@@ -42,8 +43,9 @@ Documentation Formats
      and Texinfo
 
 APIs
-     LDAP, MinGW, AppKit/Cocoa (OS X), UIKit/Cocoa (iPhone), Libtool,
-     Pthreads, Berkeley DB, and Syslog
+     OpenLDAP Library, MinGW, AppKit/Cocoa (OS X), UIKit/Cocoa (iPhone),
+     GNU Libc, Libtool's libltdl, Pthreads, Berkeley DB, SQLite, and
+     Syslog
 
 Concepts
      Unix Daemons, Networks, BSD Socket Programming (TCP and UDP),
@@ -53,8 +55,8 @@ Concepts
      Licenses (GPL, LGPL, and FDL)
 
 Protocols
-     DNS, FTP, HTTP, HTTPS, IMAP, LDAP, NFS, NTP, SMB/CIFS, SMTP, SNMP,
-     OSPP, POP3, and SSH
+     DNS, FTP, HTTP, HTTPS, IMAP, LDAP, NFS, NTP, SMTP, SNMP, OSPP,
+     POP3, and SSH
 
 Standards
      Single Unix Specification (SUSv3), GNU Coding Standards,
@@ -63,7 +65,7 @@ Standards
 
 Development Tools
      GCC, GNU Make, GNU Libtool, GNULib, GNU Libc, Autoconf, Automake,
-     CVS, Xcode, and Texinfo
+     CVS, Git, Xcode, and Texinfo
 
 Software
      Slackware Linux, FreeBSD, Solaris, Apple OS X, and Windows (98,
@@ -111,6 +113,9 @@ Alaska Communications Systems
 
         - Implemented and maintained a CVS server to manage software
           packages developed by IP Engineering.
+
+        - Migrated CVS repositories to Git repositories and used
+          git-cvsserver to provide legacy CVS support.
      Systems Administrator I (August 2001 - 2003)
      Primary responsibilities included maintaining DNS servers, iPlanet
      Messaging Servers, iPlanet Directory Servers, Apache servers,

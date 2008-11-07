@@ -1,4 +1,4 @@
-This is doc/syzdek-resume.info, produced by makeinfo version 4.11 from ./doc/syzdek-resume.texi.
+This is doc/syzdek-resume.info, produced by makeinfo version 4.12 from ./doc/syzdek-resume.texi.
 
 
 File: syzdek-resume.info,  Node: Top,  Next: People,  Up: (dir)
@@ -73,8 +73,8 @@ Documentation Formats
      and Texinfo
 
 APIs
-     LDAP, MinGW, AppKit/Cocoa (OS X), UIKit/Cocoa (iPhone), Libtool,
-     Pthreads, Berkeley DB, and Syslog
+     OpenLDAP Library, MinGW, AppKit/Cocoa (OS X), UIKit/Cocoa (iPhone),
+     Libtool, Pthreads, Berkeley DB, and Syslog
 
 Concepts
      Unix Daemons, Networks, BSD Socket Programming (TCP and UDP),
@@ -94,7 +94,7 @@ Standards
 
 Development Tools
      GCC, GNU Make, GNU Libtool, GNULib, GNU Libc, Autoconf, Automake,
-     CVS, Xcode, and Texinfo
+     CVS, Git, Xcode, and Texinfo
 
 Software
      Slackware Linux, FreeBSD, Solaris, Apple OS X, and Windows (98,
@@ -145,6 +145,9 @@ Alaska Communications Systems
 
         - Implemented and maintained a CVS server to manage software
           packages developed by IP Engineering.
+
+        - Migrated CVS repositories to Git repositories and used
+          git-cvsserver to provide legacy CVS support.
      Systems Administrator I (August 2001 - 2003)
      Primary responsibilities included maintaining DNS servers, iPlanet
      Messaging Servers, iPlanet Directory Servers, Apache servers,
@@ -302,7 +305,7 @@ Node: People201
 Node: David M. Syzdek311
 Node: Summary of Qualifications730
 Node: Technical Expertise1466
-Node: Professional Experience2783
-Node: Additional Experience9604
+Node: Professional Experience2800
+Node: Additional Experience9742
 
 End Tag Table

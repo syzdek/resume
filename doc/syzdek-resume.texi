@@ -1,10 +1,9 @@
 \input texinfo @c -*-texinfo-*-
 @c %**start of header
 @c
-@c  $Id: $
-@c
 @c  Resume of David M. Syzdek
-@c  Copyright (C) 2007 David M. Syzdek
+@c  Copyright (C) 2007, 2008 David M. Syzdek
+@c
 @setfilename syzdek-resume.info
 @settitle David M. Syzdek
 @c For double-sided printing, uncomment:
@@ -39,7 +38,7 @@
 
 @setchapternewpage off
 @headings off
-@everyfooting @value{VERSION} @| @thistitle @| page @thispage
+@everyfooting @thistitle @| @| @value{UPDATED-MONTH}
 
 @ifnottex                                                  
 @node Top                                                                            
@@ -82,10 +81,10 @@
 @unnumberedsubsec Summary of Qualifications
 
 @itemize @bullet
-@item Possess expertise in creating portable programs and libraries with emphasis on using the development tools gcc, autoconf, libtool, and automake.
+@item Possess expertise in creating portable programs and libraries through the use of development tools such as GCC, autoconf, libtool, and automake.
 @item Solid understanding of Unix environments such as Slackware Linux, FreeBSD, Solaris, and OS X.
-@item Demonstrated knowledge of developing Unix daemons and related concepts such as Signal handling, process forking, logging, PID file management, and chrooting.
-@item Strong knowledge of LDAP design (both Sun One Directory Server and OpenLDAP) and of integrating applications with LDAP.
+@item Experience in developing Unix daemons which incorporate Signal handling, process forking, logging, PID file management, chroot environments, and threads.
+@item Strong knowledge of LDAP design including the deployment of Sun One Directory Server and OpenLDAP servers, the integration with applications, and schema development.
 @end itemize
 
 
@@ -115,13 +114,15 @@ doxygen,
 Unix Man Pages,
 and Texinfo 
 @item APIs
-LDAP,
+OpenLDAP Library,
 MinGW,
 AppKit/Cocoa (OS X),
 UIKit/Cocoa (iPhone),
-Libtool,
+GNU Libc,
+Libtool's libltdl,
 Pthreads,
 Berkeley DB,
+SQLite,
 and Syslog
 @item Concepts
 Unix Daemons,
@@ -145,7 +146,6 @@ IMAP,
 LDAP,
 NFS,
 NTP,
-SMB/CIFS,
 SMTP,
 SNMP,
 OSPP,
@@ -165,6 +165,7 @@ GNU Libc,
 Autoconf,
 Automake,
 CVS,
+Git,
 Xcode,
 and Texinfo
 @item Software
@@ -195,6 +196,7 @@ required.
 @item Wrote miscellaneous web interfaces for managing MMS, WAP, and EVDO service provisioning.
 @item Wrote a library and utility that creates NAM data blocks for either IS-683-A or IS-683-C compatible mobile phones.
 @item Implemented and maintained a CVS server to manage software packages developed by IP Engineering.
+@item Migrated CVS repositories to Git repositories and used git-cvsserver to provide legacy CVS support.
 @end itemize
 @b{Systems Administrator I} (August 2001 - 2003)
 @*
@@ -294,7 +296,6 @@ Astute is an imitation of the board game Boggle.  This application is being
 developed using the Interface Builder and makes use of multiple windows and 
 keyboard inputs.  This application has not yet been released and is still in
 development.
-
 
 @end table
 
