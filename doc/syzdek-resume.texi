@@ -1,10 +1,9 @@
 \input texinfo @c -*-texinfo-*-
 @c %**start of header
 @c
-@c  $Id: $
-@c
 @c  Resume of David M. Syzdek
-@c  Copyright (C) 2007 David M. Syzdek
+@c  Copyright (C) 2009 David M. Syzdek
+@c
 @setfilename syzdek-resume.info
 @settitle David M. Syzdek
 @c For double-sided printing, uncomment:
@@ -20,8 +19,8 @@
 @set URL http://www.bindlebinaries.net/about/
 @set DAYPHONE 907-550-8389
 @set NIGHTPHONE 907-980-1151
-@set ADDRESS1 Post Office Box 110673
-@set ADDRESS2 Anchorage, Alaska  99511
+@set ADDRESS1 E Dimond Blvd. #745
+@set ADDRESS2 Anchorage, Alaska  99515
 @set ADDRESS3 United States of America
 
 @c Put everything in one index (arbitrarily chosen to be the concept index).
@@ -165,6 +164,7 @@ GNU Libc,
 Autoconf,
 Automake,
 CVS,
+Git,
 Xcode,
 and Texinfo
 @item Software
@@ -188,10 +188,13 @@ Apache servers, ProFTP servers, and legacy servers from acquired ISP.  Secondary
 include writing internal applications for the ISP business unit and other departments as
 required.
 @itemize @minus
+@item Developed a modular system to act as a device manager for mobile devices for the ACS cellular network. The system uses information from the device and billing system to properly configure the device for its capabilities and service when an OTA request is initiated.
+@item Developed a client library for the Clam AntiVirus Daemon and used the library to create a ProFTPd module for scanning files uploaded by subscribers.
+@item Installed and maintained a Redmine ticketing system for tracking department projects and department escalations.
 @item Developed a web portal that allows staff to provision virtual domains and allows subscribers to self-manage users within their respective domains.
-@item Developed a session management system that authenticates and tracks subscribers.  The system allows multiple web interfaces to share a single session identifier for a subscriber, thus eliminating the need for the subscriber to present credentials to each interface.
-@item Developed provisioning system that allowed multiple billing systems from different business units to provision services on a shared LDAP entry.  This allowed services maintained from different billing systems for an individual subscriber to share a single user name and password.
-@item Wrote a library and client that implemented the Over-the-air Service Provisioning Protocol, a proprietary protocol developed by Logica intended to allow clients on TCP/IP networks to communicate with mobile phones.  The client is used by an IVR to activate new mobile phones and update Preferred Roaming Lists (PRL) of existing mobile phones.
+@item Developed a session management system which authenticates and tracks subscribers.  The system allows multiple web interfaces to share a single session identifier for a subscriber, thus eliminating the need for the subscriber to present credentials to each interface.
+@item Developed a provisioning system which allows multiple billing systems to provision services on shared LDAP entries.  This system allows an individual subcriber to have one shared set of credentials for services managed managed by different billing systems.
+@item Wrote a library and client which implemented the Over-the-air Service Provisioning Protocol, a proprietary protocol developed by Logica intended to allow clients on TCP/IP networks to communicate with mobile phones.  The client is used by an IVR to activate new mobile phones and update Preferred Roaming Lists (PRL) of existing mobile phones.
 @item Wrote miscellaneous web interfaces for managing MMS, WAP, and EVDO service provisioning.
 @item Wrote a library and utility that creates NAM data blocks for either IS-683-A or IS-683-C compatible mobile phones.
 @item Implemented and maintained a CVS server to manage software packages developed by IP Engineering.
@@ -269,32 +272,31 @@ Secondary responsibilities included writing simple utilities to assist support s
 
 @item Roman Numeral Conversion API @* @uref{http://roman.sourceforge.net/}
 The Roman Numeral Conversion API is a small project which consists of a
-library and utilities which convert values for Roman numerals and Arabic
+library and utilities which convert values between Roman numerals and Arabic
 numerals. The library and utility will compile on POSIX systems and on
 Microsoft Operating systems. The source code was written to adhere to the GNU
 Coding Standards.
 
-@item magic8ball @* @uref{http://www.bindlebinaries.net/products/magic8ball/}
-magic8ball is a simple iPhone application which simulates the toy created in
-the late 1940s. This application makes use of the device's accelerometer to
-determine if a new message should be displayed.  This application is available
-for iPhones and iPod Touches running OS 2.0.
-
-@item RPNCalc @* @uref{http://www.bindlebinaries.net/products/rpncalc/}
-RPNCalc is implements a calculator using Reverse Polish Notation. This
-application makes use of CoreGraphics to generate the button images. The UIView
-objects are dynamically created without the use of Interface Builder so that a
-future version will be able to implement configurable button layouts and color
+@item RPNCalc @* @uref{http://support.bindlebinaries.net/projects/show/rpncalc/}
+RPNCalc is a calculator using Reverse Polish Notation. This application makes
+use of CoreGraphics to generate the button images. The UIView objects are
+dynamically created without the use of Interface Builder so that a future
+version will be able to implement conﬁgurable button layouts and colo
 schemes. The calcator was designed using MVC so that the keyboard layouts can
 be changed using view transitions while maintaining persistent calculator
-state.
+state. 
 
-@item Astute @* @uref{http://www.syzdek.net/downloads/astute/}
+@item Astute @* @uref{http://scm.bindlebinaries.net/scm/devel/Astute.git}
 Astute is an imitation of the board game Boggle.  This application is being 
 developed using the Interface Builder and makes use of multiple windows and 
 keyboard inputs.  This application has not yet been released and is still in
 development.
 
+@item ClamAVC @* @uref{http://sourceforge.net/projects/clamavc/}
+Clam AntiVirus Client Library provides a simple API to the ClamAV
+daemon. ClamAVC does not require ClamAV to be installed. ClamAVC
+communicates with clamd using clamd's documented protocol using
+either TCP or a local Unix domain socket.
 
 @end table
 
