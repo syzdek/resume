@@ -182,7 +182,7 @@ and Windows (98, 2000, XP)
 
 @table @b
 @item Alaska Communications Systems @* Anchorage, Alaska
-@b{Acting IP Engineer II} (2003 - current)
+@b{Acting IP Engineer II} (2003 - 2010)
 @*
 Primary responsibilities include maintaining SunOne Directory Servers, 
 Apache servers, ProFTP servers, and legacy servers from acquired ISP.  Secondary responsibilities
