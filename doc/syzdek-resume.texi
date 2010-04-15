@@ -2,7 +2,7 @@
 @c %**start of header
 @c
 @c  Resume of David M. Syzdek
-@c  Copyright (C) 2009 David M. Syzdek
+@c  Copyright (C) 2007, 2008, 2009, 2010 David M. Syzdek
 @c
 @setfilename syzdek-resume.info
 @settitle David M. Syzdek
