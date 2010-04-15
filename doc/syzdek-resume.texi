@@ -81,10 +81,10 @@
 @unnumberedsubsec Summary of Qualifications
 
 @itemize @bullet
-@item Possess expertise in creating portable programs and libraries with emphasis on using the development tools gcc, autoconf, libtool, and automake.
+@item Possess expertise in creating portable programs and libraries through the use of development tools such as GCC, autoconf, libtool, and automake.
 @item Solid understanding of Unix environments such as Slackware Linux, FreeBSD, Solaris, and OS X.
-@item Demonstrated knowledge of developing Unix daemons and related concepts such as Signal handling, process forking, logging, PID file management, and chrooting.
-@item Strong knowledge of LDAP design (both Sun One Directory Server and OpenLDAP) and of integrating applications with LDAP.
+@item Experience in developing Unix daemons which incorporate Signal handling, process forking, logging, PID file management, chroot environments, and threads.
+@item Strong knowledge of LDAP design including the deployment of Sun One Directory Server and OpenLDAP servers, the integration with applications, and schema development.
 @end itemize
 
 
