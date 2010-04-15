@@ -17,9 +17,9 @@
 @set EMAIL syzdek@@bindlebinaries.net
 @set URL http://www.syzdek.net/@/~syzdek/
 @set URL http://www.bindlebinaries.net/about/
-@set DAYPHONE 907-550-8389
-@set NIGHTPHONE 907-980-1151
 @set ADDRESS1 E Dimond Blvd. #745
+@set PHONE1 907-980-1151 (day)
+@set PHONE2  
 @set ADDRESS2 Anchorage, Alaska  99515
 @set ADDRESS3 United States of America
 
@@ -60,9 +60,9 @@
 @unnumberedsec David M. Syzdek
 @multitable @columnfractions .60 .40 
 @item @value{ADDRESS1}
-@tab @value{DAYPHONE} (day)
+@tab @value{PHONE1}
 @item @value{ADDRESS2}
-@tab @value{NIGHTPHONE} (evenings) 
+@tab @value{PHONE2}
 @item
 @tab
 @item @uref{@value{URL}}
