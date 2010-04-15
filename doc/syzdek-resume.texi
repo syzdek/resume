@@ -293,15 +293,6 @@ numerals. The library and utility will compile on POSIX systems and on
 Microsoft Operating systems. The source code was written to adhere to the GNU
 Coding Standards.
 
-@item RPNCalc @* @uref{http://support.bindlebinaries.net/projects/show/rpncalc/}
-RPNCalc is a calculator using Reverse Polish Notation. This application makes
-use of CoreGraphics to generate the button images. The UIView objects are
-dynamically created without the use of Interface Builder so that a future
-version will be able to implement conﬁgurable button layouts and colo
-schemes. The calcator was designed using MVC so that the keyboard layouts can
-be changed using view transitions while maintaining persistent calculator
-state. 
-
 @item Astute @* @uref{http://scm.bindlebinaries.net/scm/devel/Astute.git}
 Astute is an imitation of the board game Boggle.  This application is being 
 developed using the Interface Builder and makes use of multiple windows and 
