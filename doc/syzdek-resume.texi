@@ -181,6 +181,20 @@ and Windows (98, 2000, XP)
 @unnumberedsubsec Professional Experience
 
 @table @b
+
+@item Bindle Binaries @* Anchorage, Alaska
+@b{Software Developer} (2007 - current)
+@*
+Primary responsibilities include writing software for the iPhone
+platform and Unix based platforms.  Secondary responsibilities include
+coordinating work with clients to ensure that project requirements are
+being met to the client's satisfaction.
+@itemize @minus
+@item Developed an RPN calculator for the iPhone OS. The application makes use of the CoreGraphics framework to dyanmically generate button images used in the caclulator's GUI.
+@item Wrote a promotion iPhone application for Blogography.  The application makes use of the CoreAnimation framework to provde animated backgrounds and menu transitions.
+@item Wrote an iPhone application which simulated a Magic 8 ball. The application makes use of the accelerometer to detemine if the device is being shaken or flipped upside down.
+@end itemize
+
 @item Alaska Communications Systems @* Anchorage, Alaska
 @b{Acting IP Engineer II} (2003 - 2010)
 @*
