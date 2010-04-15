@@ -14,12 +14,12 @@
 
 @set TITLE David M. Syzdek
 @set NAME David M. Syzdek
-@set EMAIL syzdek@@bindlebinaries.net
+@set EMAIL syzdek@@bindlebinaries.com
 @set URL http://www.syzdek.net/@/~syzdek/
-@set URL http://www.bindlebinaries.net/about/
-@set ADDRESS1 E Dimond Blvd. #745
+@set URL http://www.bindlebinaries.com/
 @set PHONE1 907-980-1151 (day)
 @set PHONE2  
+@set ADDRESS1 205 E Dimond Blvd. #745
 @set ADDRESS2 Anchorage, Alaska  99515
 @set ADDRESS3 United States of America
 
