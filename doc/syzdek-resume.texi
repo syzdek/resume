@@ -38,7 +38,7 @@
 
 @setchapternewpage off
 @headings off
-@everyfooting @value{VERSION} @| @thistitle @| page @thispage
+@everyfooting @thistitle @| @| @value{UPDATED-MONTH}
 
 @ifnottex                                                  
 @node Top                                                                            
