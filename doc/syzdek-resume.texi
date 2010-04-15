@@ -293,7 +293,7 @@ numerals. The library and utility will compile on POSIX systems and on
 Microsoft Operating systems. The source code was written to adhere to the GNU
 Coding Standards.
 
-@item Astute @* @uref{http://scm.bindlebinaries.net/scm/devel/Astute.git}
+@item Astute @* @uref{http://scm.bindlebinaries.com/scm/com.bindlebinaries/Astute.git}
 Astute is an imitation of the board game Boggle.  This application is being 
 developed using the Interface Builder and makes use of multiple windows and 
 keyboard inputs.  This application has not yet been released and is still in
