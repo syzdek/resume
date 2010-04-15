@@ -16,8 +16,7 @@
 AC_PREREQ(2.61)
 
 AC_COPYRIGHT([Copyright (c) 2007 David M. Syzdek <david@syzdek.net>])
-AC_REVISION($Revision: 1.5.2.29 $)
-AC_INIT([Resume of David M. Syzdek],[2007.12.31],[david@syzdek.net],[syzdek-resume])
+AC_INIT([Resume of David M. Syzdek],[src],[syzdek@bindlebinaries.net],[syzdek-resume])
 
 # Library Version Info:
 #    Current    -- the current version number of this API
