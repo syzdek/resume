@@ -18,7 +18,7 @@
 @set URL http://www.syzdek.net/@/~syzdek/
 @set URL http://www.bindlebinaries.com/
 @set PHONE1 907-980-1151 (day)
-@set PHONE2  
+@set PHONE2  907-279-2001 (fax)
 @set ADDRESS1 P.O. Box 200583
 @set ADDRESS2 Anchorage, Alaska  99520
 @set ADDRESS3 United States of America
@@ -183,13 +183,15 @@ and Windows (98, 2000, XP)
 @table @b
 
 @item Bindle Binaries @* Anchorage, Alaska
-@b{Software Developer} (2007 - current)
+@b{Software Developer} (2010 - current)
 @*
 Primary responsibilities include writing software for the iPhone
 platform and Unix based platforms.  Secondary responsibilities include
 coordinating work with clients to ensure that project requirements are
 being met to the client's satisfaction.
 @itemize @minus
+@item Created iOSPorts project to manage iOS ports for OpenSSL, Cyrus-SASL, OpenLDAP, and PCRE.
+@item Wrote a two part article describing a method of porting OpenLDAP to iOS.
 @item Developed an RPN calculator for the iPhone OS. The application makes use of the CoreGraphics framework to dyanmically generate button images used in the caclulator's GUI.
 @item Wrote a promotion iPhone application for Blogography.  The application makes use of the CoreAnimation framework to provde animated backgrounds and menu transitions.
 @item Wrote an iPhone application which simulated a Magic 8 ball. The application makes use of the accelerometer to detemine if the device is being shaken or flipped upside down.
