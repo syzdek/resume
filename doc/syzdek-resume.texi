@@ -174,7 +174,7 @@ Slackware Linux,
 FreeBSD,
 Solaris,
 Apple OS X,
-and Windows (98, 2000, XP)
+and Windows (98, 2000, XP, Vista)
 @end table
 
 
