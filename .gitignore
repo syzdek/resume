@@ -17,6 +17,8 @@
 *.txt
 *.vr
 a.out
+/COPYING
+/INSTALL
 /aclocal.m4
 /autom4te.cache/
 /build/
