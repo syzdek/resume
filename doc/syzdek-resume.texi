@@ -289,24 +289,22 @@ Secondary responsibilities included writing simple utilities to assist support s
 
 @table @b
 
-@item Roman Numeral Conversion API @* @uref{http://roman.sourceforge.net/}
-The Roman Numeral Conversion API is a small project which consists of a
-library and utilities which convert values between Roman numerals and Arabic
-numerals. The library and utility will compile on POSIX systems and on
-Microsoft Operating systems. The source code was written to adhere to the GNU
-Coding Standards.
+@item iOS Ports @* @uref{https://github.com/bindle/iOSPorts}
+iOS Ports is a collection of F/OSS libraries which have been ported to the iOS platform
+for use when creating applications for the iPhone, iPad, or iPod Touch. iOS Ports
+facilitates the downloading of the source and compiling for the target platform. iOS
+Ports accomplishes this using GNU Make to prepare the source and Xcode to compile
+the binaries.
 
-@item Astute @* @uref{http://scm.bindlebinaries.com/scm/com.bindlebinaries/Astute.git}
-Astute is an imitation of the board game Boggle.  This application is being 
-developed using the Interface Builder and makes use of multiple windows and 
-keyboard inputs.  This application has not yet been released and is still in
-development.
+@item ODBC Shell @* @uref{https://github.com/bindle/odbcshell}
+ODBC Shell is a utility which provides a simple and polished command line interface
+to querying databases using ODBC. ODBC Shell uses GNU Readline to present the CLI;
+iODBC to manage ODBC connections; string manipulation to interpret the user's commands;
+and GNU Autotools to compile and configure the sources.
 
-@item ClamAVC @* @uref{http://sourceforge.net/projects/clamavc/}
-Clam AntiVirus Client Library provides a simple API to the ClamAV
-daemon. ClamAVC does not require ClamAV to be installed. ClamAVC
-communicates with clamd using clamd's documented protocol using
-either TCP or a local Unix domain socket.
+@item AskDave @* @uref{https://github.com/bindle/AskDave}
+AskDave is an entertainment app for the iPhone which uses CoreAnimation and the
+Accelerometer to provide random animated answers.
 
 @end table
 
