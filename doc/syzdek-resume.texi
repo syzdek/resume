@@ -117,12 +117,13 @@ and Texinfo
 OpenLDAP Library,
 MinGW,
 AppKit/Cocoa (OS X),
-UIKit/Cocoa (iPhone),
+UIKit/Cocoa (iOS),
 GNU Libc,
 Libtool's libltdl,
 Pthreads,
 Berkeley DB,
 SQLite,
+iODBC,
 and Syslog
 @item Concepts
 Unix Daemons,
