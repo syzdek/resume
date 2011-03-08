@@ -137,7 +137,7 @@ Perl Modules,
 Source Code Control/Revision Control,
 Change Management,
 Software Documentation,
-and Open Source Licenses (GPL, LGPL, and FDL)
+and Open Source Licensing.
 @item Protocols
 DNS,
 FTP,
