@@ -185,18 +185,18 @@ and Windows (98, 2000, XP, Vista)
 @table @b
 
 @item Bindle Binaries @* Anchorage, Alaska
-@b{Software Developer} (2010 - current)
+@b{Software Developer} (2010 - present)
 @*
 Primary responsibilities include writing software for the iPhone
 platform and Unix based platforms.  Secondary responsibilities include
-coordinating work with clients to ensure that project requirements are
-being met to the client's satisfaction.
+coordinating work with clients to ensure project satisfaction.
 @itemize @minus
-@item Created iOSPorts project to manage iOS ports for OpenSSL, Cyrus-SASL, OpenLDAP, and PCRE.
-@item Wrote a two part article describing a method of porting OpenLDAP to iOS.
+@item Created a portable ODBC client using iODBC and unixODBC for POSIX environments such as OS X, Slackware Linux, and FreeBSD.
+@item Created iOSPorts project to port OpenSSL, Cyrus-SASL, OpenLDAP, and PCRE to iOS environment for the iPhone.
+@item Wrote a two-part article describing a method to port OpenLDAP to iOS.
 @item Developed an RPN calculator for the iPhone OS. The application makes use of the CoreGraphics framework to dyanmically generate button images used in the caclulator's GUI.
 @item Wrote a promotion iPhone application for Blogography.  The application makes use of the CoreAnimation framework to provde animated backgrounds and menu transitions.
-@item Wrote an iPhone application which simulated a Magic 8 ball. The application makes use of the accelerometer to detemine if the device is being shaken or flipped upside down.
+@item Wrote an iPhone application which simulated a Magic 8 Ball. The application makes use of the accelerometer to detemine if the device is shook or if the device is flipped upside down.
 @end itemize
 
 @item Alaska Communications Systems @* Anchorage, Alaska
