@@ -124,7 +124,7 @@ Libtool's libltdl,
 Pthreads,
 Berkeley DB,
 SQLite,
-iODBC,
+iODBC/unixODBC,
 and Syslog
 @item Concepts
 Unix Daemons,
