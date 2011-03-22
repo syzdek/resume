@@ -293,8 +293,8 @@ Secondary responsibilities included writing simple utilities to assist support s
 @item iOS Ports @* @uref{https://github.com/bindle/iOSPorts}
 iOS Ports is a collection of F/OSS libraries which have been ported to the iOS platform
 for use when creating applications for the iPhone, iPad, or iPod Touch. iOS Ports
-facilitates the downloading of the source and compiling for the target platform. iOS
-Ports accomplishes this using GNU Make to prepare the source and Xcode to compile
+facilitates the downloading of the source code and compiling for the target iOS architecture. iOS
+Ports accomplishes this using GNU Make to prepare the source code and Xcode to compile
 the binaries.
 
 @item ODBC Shell @* @uref{https://github.com/bindle/odbcshell}
