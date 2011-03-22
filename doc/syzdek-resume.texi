@@ -304,8 +304,8 @@ iODBC to manage ODBC connections; string manipulation to interpret the user's co
 and GNU Autotools to compile and configure the sources.
 
 @item AskDave @* @uref{https://github.com/bindle/AskDave}
-AskDave is an entertainment app for the iPhone which uses CoreAnimation and the
-Accelerometer to provide random animated answers.
+AskDave is an entertainment application for the iPhone which uses CoreAnimation and the
+accelerometer to provide random animated answers.
 
 @end table
 
