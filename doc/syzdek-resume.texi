@@ -227,9 +227,9 @@ Secondary responsibilities included writing simple utilities to assist support s
 @itemize @minus
 @item Using Bind 9, designed a DNS infrastructure which implemented split views and split horizons.
 @item Developed Unix tools using Perl, Bash, and C to simplify server management and to assist technical support personnel.
-@item Developed multiple Perl CGI interfaces which allowed staff controlled access to LDAP data and radius data.
+@item Developed multiple Perl CGI interfaces which provided staff with controlled access to LDAP data and radius data.
 @item Developed an iPlanet Messenger Express plug-in using CGI scripting and JavaScript. The plug-in added the ability for subscribers to manage e-mail filters. This involved writing a basic Sieve rule parser in JavaScript.
-@item Completed a user audit of an acquired company's provisioning systems against the company's billing database. Services were provisioned using Unix passwd and shadow files and the billing information was stored in MS SQL databases.
+@item Completed a user audit of an acquired company's provisioning system against the company's billing database. Services were provisioned using Unix passwd and shadow files and the billing information was stored in MS SQL databases.
 @item Planned and executed an upgrade of an iPlanet Messaging Server that served roughly 65,000 users. The upgrade including moving from a Sun 4400 to a Sun V880, moving the message store from NFS shares to local arrays, and upgrading the software from version 5.1 to version 5.2.  Detailed plans, time lines accurate to the minute, and proof of repetitive testing was provided to management prior to the actual upgrade.
 @item Planned and executed the migration of an acquired ISP (MosquitoNet) consisting of roughly 6,000 users into ACS's ISP infrastructure.  This included coordinated e-mail, web, FTP, DNS, and radius migrations.
 @item Implemented a FTP infrastructure that uses LDAP for authentication and supports virtual domains.  Created custom LDAP schema to support infrastructure.
