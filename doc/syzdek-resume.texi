@@ -16,7 +16,7 @@
 @set NAME David M. Syzdek
 @set EMAIL david@@syzdek.net
 @set URL http://www.syzdek.net/@/~syzdek/
-@c @set URL http://www.bindlebinaries.com/
+@set URL http://www.bindlebinaries.com/
 @set PHONE1 907-980-1151 (day)
 @set PHONE2  907-279-2001 (fax)
 @set ADDRESS1 P.O. Box 200424
@@ -103,12 +103,12 @@ Perl,
 PHP,
 Bash,
 JavaScript,
-CSS,
 SSI,
 M4,
 and XML
 @item Documentation Formats
 HTML,
+CSS,
 Perl Plain Old Documentation (POD),
 doxygen,
 Unix Man Pages,
@@ -185,7 +185,7 @@ and Windows (98, 2000, XP, Vista)
 @table @b
 
 @item Bindle Binaries @* Anchorage, Alaska
-@b{Software Developer} (2010 - present)
+@b{Owner-Operator/Software Developer} (2010 - present)
 @*
 Primary responsibilities include writing software for the iPhone
 platform and Unix based platforms.  Secondary responsibilities include
