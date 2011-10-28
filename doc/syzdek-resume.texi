@@ -194,9 +194,9 @@ coordinating work with clients to ensure project satisfaction.
 @item Created a portable ODBC client using iODBC and unixODBC for POSIX environments such as OS X, Slackware Linux, and FreeBSD.
 @item Created iOSPorts project to port OpenSSL, Cyrus-SASL, OpenLDAP, and PCRE to iOS environment for the iPhone.
 @item Wrote a two-part article describing a method to port OpenLDAP to iOS.
-@item Developed an RPN calculator for the iPhone OS. The application makes use of the CoreGraphics framework to dyanmically generate button images used in the caclulator's GUI.
-@item Wrote a promotion iPhone application for Blogography.  The application makes use of the CoreAnimation framework to provde animated backgrounds and menu transitions.
-@item Wrote an iPhone application which simulated a Magic 8 Ball. The application makes use of the accelerometer to detemine if the device is shook or if the device is flipped upside down.
+@item Developed an RPN calculator for the iPhone OS. The application makes use of the CoreGraphics framework to dynamically generate button images used in the calculator's GUI.
+@item Wrote a promotion iPhone application for Blogography.  The application makes use of the CoreAnimation framework to provide animated backgrounds and menu transitions.
+@item Wrote an iPhone application which simulated a Magic 8 Ball. The application makes use of the accelerometer to determine if the device is shook or if the device is flipped upside down.
 @end itemize
 
 @item Alaska Communications Systems @* Anchorage, Alaska
@@ -212,7 +212,7 @@ required.
 @item Installed and maintained a Redmine ticketing system for tracking department projects and department escalations.
 @item Developed a web portal that allows staff to provision virtual domains and allows subscribers to self-manage users within their respective domains.
 @item Developed a session management system which authenticates and tracks subscribers.  The system allows multiple web interfaces to share a single session identifier for a subscriber, thus eliminating the need for the subscriber to present credentials to each interface.
-@item Developed a provisioning system which allows multiple billing systems to provision services on shared LDAP entries.  This system allows an individual subcriber to have one shared set of credentials for services managed managed by different billing systems.
+@item Developed a provisioning system which allows multiple billing systems to provision services on shared LDAP entries.  This system allows an individual subscriber to have one shared set of credentials for services managed managed by different billing systems.
 @item Wrote a library and client which implemented the Over-the-air Service Provisioning Protocol, a proprietary protocol developed by Logica intended to allow clients on TCP/IP networks to communicate with mobile phones.  The client is used by an IVR to activate new mobile phones and update Preferred Roaming Lists (PRL) of existing mobile phones.
 @item Wrote miscellaneous web interfaces for managing MMS, WAP, and EVDO service provisioning.
 @item Wrote a library and utility that creates NAM data blocks for either IS-683-A or IS-683-C compatible mobile phones.
