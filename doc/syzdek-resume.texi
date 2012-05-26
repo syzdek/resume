@@ -74,6 +74,7 @@
 * Technical Expertise::
 * Professional Experience::
 * Additional Experience::
+* Social Media::
 @end menu                                                                                                              
 @end ifnottex
 
@@ -81,10 +82,10 @@
 @unnumberedsubsec Summary of Qualifications
 
 @itemize @bullet
-@item Expertise in creating portable programs and libraries through the use of development tools such as GCC, autoconf, libtool, and automake.
+@item Expertise in writing programs and libraries through the use of development tools such as Xcode, GCC, autoconf, libtool, and automake.
 @item Solid understanding of Unix environments such as Slackware Linux, FreeBSD, Solaris, and OS X.
-@item Experience in developing Unix daemons which incorporate Signal handling, process forking, logging, PID file management, chroot environments, and threads.
-@item Strong knowledge of LDAP design including the deployment of Sun One Directory Server and OpenLDAP servers, the integration with applications, and schema development.
+@item Experience in developing Unix daemons, porting POSIX libraries to iOS, and writing intricate iOS apps.
+@item Strong knowledge of LDAP design including the deployment of Sun One Directory Server and OpenLDAP servers, the integration with applications, schema management, and application development.
 @end itemize
 
 
@@ -106,13 +107,6 @@ JavaScript,
 SSI,
 M4,
 and XML
-@item Documentation Formats
-HTML,
-CSS,
-Perl Plain Old Documentation (POD),
-doxygen,
-Unix Man Pages,
-and Texinfo 
 @item APIs
 OpenLDAP Library,
 MinGW,
@@ -127,13 +121,14 @@ SQLite,
 iODBC/unixODBC,
 and Syslog
 @item Concepts
+MVC Design,
 Unix Daemons,
 Networks,
-BSD Socket Programming (TCP and UDP),
+Socket Programming (TCP and UDP),
 Portable Programming,
 CGI Programming,
 Cross-Compiling,
-Library Programming,
+Library Development,
 Perl Modules,
 Source Code Control/Revision Control,
 Change Management,
@@ -156,9 +151,10 @@ and SSH
 @item Standards
 Single Unix Specification (SUSv3),
 GNU Coding Standards,
-Filesystem Hierarchy Standard (FHS),
-and External Data Representation Standard (XDR/RFC1014)
+and Apple's Human Interface Guidelines
 @item Development Tools
+Xcode,
+LLVM,
 GCC,
 GNU Make,
 GNU Libtool,
@@ -168,14 +164,31 @@ Autoconf,
 Automake,
 CVS,
 Git,
-Xcode,
 and Texinfo
-@item Software
+@item Environments
 Slackware Linux,
 FreeBSD,
 Solaris,
 Apple OS X,
-and Windows (98, 2000, XP, Vista)
+Windows (98, 2000, XP, Vista, 7),
+VirtualBox,
+FreeBSD Jails,
+and Linux LXC
+@item Software
+ntpd,
+ProFTPd
+Apache,
+Lighttpd,
+Redmine,
+MediaWiki,
+Nagios,
+Sendmail,
+Mailman,
+Bind,
+SunOne Directory Server,
+OpenLDAP,
+OpenSSH,
+and MySQL
 @end table
 
 
@@ -191,6 +204,8 @@ Primary responsibilities include writing software for the iPhone
 platform and Unix based platforms.  Secondary responsibilities include
 coordinating work with clients to ensure project satisfaction.
 @itemize @minus
+@item Built and maintained server environment to support business operations. The server environment utilizes a combination of Linux containers (LXC) hosted  on local hardware and remote instances hosted with VPS providers.
+@item Designed and wrote Branches, an LDAP administrator for iOS.  Branches parses a servers schema and uses the parsed schema to present intelligent options to users when modifying LDAP entries.
 @item Created a portable ODBC client using iODBC and unixODBC for POSIX environments such as OS X, Slackware Linux, and FreeBSD.
 @item Created iOSPorts project to port OpenSSL, Cyrus-SASL, OpenLDAP, and PCRE to iOS environment for the iPhone.
 @item Wrote a two-part article describing a method to port OpenLDAP to iOS.
@@ -250,7 +265,7 @@ Secondary responsibilities included writing simple utilities to assist support s
 
 @item Internet Plus LLC dba MosquitoNet@*Fairbanks, Alaska
 @b{Systems Administrator} (May 2001 - August 2001)
-@c @b{Systems Administrator} (2001)
+@c @c @b{Systems Administrator} (2001)
 @itemize @minus
 @item Set up and maintained MySQL databases for virtual hosting subscribers.
 @item Assisted with the initial migration administrative tasks from MosquitoNet to ACS.
@@ -261,18 +276,18 @@ Secondary responsibilities included writing simple utilities to assist support s
 @b{Computer Technician} (March 2000 - April 2001)
 @c @b{Computer Technician} (2000 - 2001)
 @itemize @minus
-@item Installed and configured 802.11b networking equipment at subscriber premises.
+@c @item Installed and configured 802.11b networking equipment at subscriber premises.
 @item Provided technical support to wireless and business subscribers.  Provided on site response in the event of extended subscriber outages.
-@item Acted as a sales person to expand MosquitoNet's user base.
-@item Provided on site computer repair.
+@c @item Acted as a sales person to expand MosquitoNet's user base.
+@c @item Provided on site computer repair.
 @item Installed simple office networks for small businesses.
 @end itemize
-@b{Subscriber Support Technician} (January 2000 - March 2000)
-@c @b{Subscriber Support Technician} (2000)
-@itemize @minus
-@item Provided technical support to email, dial-up, and virtual hosting subscribers.
-@item Assisted in the computer repair shop as needed.
-@end itemize
+@c @b{Subscriber Support Technician} (January 2000 - March 2000)
+@c @c @b{Subscriber Support Technician} (2000)
+@c @itemize @minus
+@c @item Provided technical support to email, dial-up, and virtual hosting subscribers.
+@c @item Assisted in the computer repair shop as needed.
+@c @end itemize
 
 @c @item Sears Roebuck and Company@* Fairbanks, Alaska
 @c @b{Sales Associate} (October 1998 - April 2000)
@@ -290,6 +305,16 @@ Secondary responsibilities included writing simple utilities to assist support s
 
 @table @b
 
+@item Branches LDAP Administrator @* @uref{http://itunes.apple.com/us/app/branches/id499800513}
+Branches is an iOS LDAP administator. Branches includes a schema browser, directory browser,
+directory search tool, and RFC texts related to LDAP.  In addition, Branches uses the server's
+schema to determine which attribute types and object classes to allow to be deleted, modified,
+or added when a user is modifying an LDAP entry.
+
+@item BindleKit @* @uref{https://github.com/bindle/BindleKit}
+BindleKit is a collection of Objective-C classes that were created to fulfill a need in
+a particular project but may be of use in additional iOS or OS X projects.
+
 @item iOS Ports @* @uref{https://github.com/bindle/iOSPorts}
 iOS Ports is a collection of F/OSS libraries which have been ported to the iOS platform
 for use when creating applications for the iPhone, iPad, or iPod Touch. iOS Ports
@@ -303,10 +328,22 @@ to querying databases using ODBC. ODBC Shell uses GNU Readline to present the CL
 iODBC to manage ODBC connections; string manipulation to interpret the user's commands;
 and GNU Autotools to compile and configure the sources.
 
-@item AskDave @* @uref{https://github.com/bindle/AskDave}
+@item Ask Dave @* @uref{https://github.com/bindle/AskDave} @* @uref{http://itunes.apple.com/us/app/ask-dave/id315173501}
 AskDave is an entertainment application for the iPhone which uses CoreAnimation and the
 accelerometer to provide random animated answers.
 
 @end table
+
+@node Social Media
+@unnumberedsubsec Social Media
+
+@itemize @bullet
+@item Ohloh @uref{https://www.ohloh.net/accounts/syzdek}
+@item LinkedIn @uref{http://www.linkedin.com/profile/view?id=70971430}
+@item SourceForge @uref{http://sourceforge.net/users/syzdek}
+@item Stack Overflow @uref{http://stackoverflow.com/users/903194/}
+@item Github (Personal) @uref{https://github.com/syzdek}
+@item Github (Business) @uref{https://github.com/bindle}
+@end itemize
 
 @bye
