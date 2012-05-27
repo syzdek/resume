@@ -19,7 +19,7 @@
 @set URL http://www.bindlebinaries.com/
 @set PHONE1 907-980-1151 (day)
 @set PHONE2  907-279-2001 (fax)
-@set ADDRESS1 P.O. Box 200424
+@set ADDRESS1 P.O. Box 200583
 @set ADDRESS2 Anchorage, Alaska  99520
 @set ADDRESS3 United States of America
 
@@ -73,7 +73,7 @@
 * Summary of Qualifications::
 * Technical Expertise::
 * Professional Experience::
-* Additional Experience::
+* Portfolio::
 * Social Media::
 @end menu                                                                                                              
 @end ifnottex
@@ -82,10 +82,10 @@
 @unnumberedsubsec Summary of Qualifications
 
 @itemize @bullet
-@item Expertise in writing programs and libraries through the use of development tools such as Xcode, GCC, autoconf, libtool, and automake.
-@item Solid understanding of Unix environments such as Slackware Linux, FreeBSD, Solaris, and OS X.
+@item Expertise in writing programs and libraries through the use of development tools, such as Xcode, GCC, autoconf, libtool, and automake.
+@item Solid understanding of Unix environments, such as Slackware Linux, FreeBSD, Solaris, and OS X.
 @item Experience in developing Unix daemons, porting POSIX libraries to iOS, and writing intricate iOS apps.
-@item Strong knowledge of LDAP design including the deployment of Sun One Directory Server and OpenLDAP servers, the integration with applications, schema management, and application development.
+@item Strong knowledge of LDAP design, including the deployment of Sun One Directory Server and OpenLDAP servers, the integration with applications, schema management, and application development.
 @end itemize
 
 
@@ -133,7 +133,7 @@ Perl Modules,
 Source Code Control/Revision Control,
 Change Management,
 Software Documentation,
-and Open Source Licensing.
+and Open Source Licensing
 @item Protocols
 DNS,
 FTP,
@@ -204,7 +204,7 @@ Primary responsibilities include writing software for the iPhone
 platform and Unix based platforms.  Secondary responsibilities include
 coordinating work with clients to ensure project satisfaction.
 @itemize @minus
-@item Built and maintained server environment to support business operations. The server environment utilizes a combination of Linux containers (LXC) hosted  on local hardware and remote instances hosted with VPS providers.
+@item Built and maintained a server environment to support business operations. The server environment utilizes a combination of Linux containers (LXC) hosted  on local hardware and remote instances hosted with VPS providers.
 @item Designed and wrote Branches, an LDAP administrator for iOS.  Branches parses a servers schema and uses the parsed schema to present intelligent options to users when modifying LDAP entries.
 @item Created a portable ODBC client using iODBC and unixODBC for POSIX environments such as OS X, Slackware Linux, and FreeBSD.
 @item Created iOSPorts project to port OpenSSL, Cyrus-SASL, OpenLDAP, and PCRE to iOS environment for the iPhone.
@@ -268,10 +268,10 @@ Secondary responsibilities included writing simple utilities to assist support s
 @c @c @b{Systems Administrator} (2001)
 @itemize @minus
 @item Set up and maintained MySQL databases for virtual hosting subscribers.
-@item Assisted with the initial migration administrative tasks from MosquitoNet to ACS.
+@item Assisted with the initial migration of administrative tasks from MosquitoNet to ACS.
 @item Initiated the audit of MosquitoNet's provisioning systems.
 @item Implemented new web mail system.
-@item Managed daily operational tasks, resolved escalations from technical support, and provided a 24 hour response to system outages.
+@item Managed daily operational tasks, resolved escalations from technical support, and provided a 24-hour response to system outages.
 @end itemize
 @b{Computer Technician} (March 2000 - April 2001)
 @c @b{Computer Technician} (2000 - 2001)
@@ -300,8 +300,8 @@ Secondary responsibilities included writing simple utilities to assist support s
 
 @end table
 
-@node Additional Experience
-@unnumberedsubsec Additional Experience
+@node Portfolio
+@unnumberedsubsec Portfolio
 
 @table @b
 
@@ -313,7 +313,7 @@ or added when a user is modifying an LDAP entry.
 
 @item BindleKit @* @uref{https://github.com/bindle/BindleKit}
 BindleKit is a collection of Objective-C classes that were created to fulfill a need in
-a particular project but may be of use in additional iOS or OS X projects.
+a particular project but are of use in other Cocoa/Cocoa Touch projects.
 
 @item iOS Ports @* @uref{https://github.com/bindle/iOSPorts}
 iOS Ports is a collection of F/OSS libraries which have been ported to the iOS platform
@@ -324,8 +324,8 @@ the binaries.
 
 @item ODBC Shell @* @uref{https://github.com/bindle/odbcshell}
 ODBC Shell is a utility which provides a simple and polished command line interface
-to querying databases using ODBC. ODBC Shell uses GNU Readline to present the CLI;
-iODBC to manage ODBC connections; string manipulation to interpret the user's commands;
+to querying databases using ODBC. ODBC Shell uses GNU Readline to present the CLI,
+iODBC to manage ODBC connections, string manipulation to interpret the user's commands,
 and GNU Autotools to compile and configure the sources.
 
 @item Ask Dave @* @uref{https://github.com/bindle/AskDave} @* @uref{http://itunes.apple.com/us/app/ask-dave/id315173501}
