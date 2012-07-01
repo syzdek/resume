@@ -204,6 +204,7 @@ Primary responsibilities include writing software for the iPhone
 platform and Unix based platforms.  Secondary responsibilities include
 coordinating work with clients to ensure project satisfaction.
 @itemize @minus
+@item Designed and implemented an Objective-C framework for accessing LDAP directories from Mac OS X or iOS.
 @item Built and maintained a server environment to support business operations. The server environment utilizes a combination of Linux containers (LXC) hosted  on local hardware and remote instances hosted with VPS providers.
 @item Designed and wrote Branches, an LDAP administrator for iOS.  Branches parses a servers schema and uses the parsed schema to present intelligent options to users when modifying LDAP entries.
 @item Created a portable ODBC client using iODBC and unixODBC for POSIX environments such as OS X, Slackware Linux, and FreeBSD.
@@ -321,6 +322,12 @@ for use when creating applications for the iPhone, iPad, or iPod Touch. iOS Port
 facilitates the downloading of the source code and compiling for the target iOS architecture. iOS
 Ports accomplishes this using GNU Make to prepare the source code and Xcode to compile
 the binaries.
+
+@item LDAP Kit @* @uref{http://bindle.github.com/LdapKit/}
+LDAP Kit is a framework which provides an Objective-C interface for the OpenLDAP client libraries.
+LDAP Kit manages the conversion between C data types and Objective-C classes, manages background
+threads for executing LDAP tasks, and manages memory allocated by OpenLDAP via NSAutoreleasePool
+objects.
 
 @item ODBC Shell @* @uref{https://github.com/bindle/odbcshell}
 ODBC Shell is a utility which provides a simple and polished command line interface
