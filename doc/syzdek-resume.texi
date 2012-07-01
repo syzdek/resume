@@ -74,7 +74,7 @@
 * Technical Expertise::
 * Professional Experience::
 * Portfolio::
-* Social Media::
+* Online Profiles::
 @end menu                                                                                                              
 @end ifnottex
 
@@ -253,16 +253,16 @@ Secondary responsibilities included writing simple utilities to assist support s
 @item Was primary administrator for DNS servers, iPlanet Messaging Servers, LDAP servers, and Unix web servers of the ISP business unit.
 @end itemize
 
-@item HB Technical Services @* Fairbanks, Alaska
-@b{Systems Administrator} (April 2001)
-@c @b{Systems Administrator} (2001)
-@itemize @minus
-@item Used OpenLDAP on Linux and OpenBSD to provide global address book and roaming Netscape profile solutions for small businesses.
-@item Used Linux and Samba as replacements for Microsoft Windows servers in small business environments. The replacements were used for primary domain controllers, file servers, roaming profiles, and print servers.
-@item Provided OpenBSD firewalls for small businesses.
-@item Produced and maintained Linux servers which provided Internet services such as web, e-mail, DNS, FTP, DHCP, and Webmail for small businesses.
-@item Provided on site consulting and support for small networks, workstations, and Linux and OpenBSD servers.  
-@end itemize
+@c @item HB Technical Services @* Fairbanks, Alaska
+@c @b{Systems Administrator} (April 2001)
+@c @c @b{Systems Administrator} (2001)
+@c @itemize @minus
+@c @item Used OpenLDAP on Linux and OpenBSD to provide global address book and roaming Netscape profile solutions for small businesses.
+@c @item Used Linux and Samba as replacements for Microsoft Windows servers in small business environments. The replacements were used for primary domain controllers, file servers, roaming profiles, and print servers.
+@c @item Provided OpenBSD firewalls for small businesses.
+@c @item Produced and maintained Linux servers which provided Internet services such as web, e-mail, DNS, FTP, DHCP, and Webmail for small businesses.
+@c @item Provided on site consulting and support for small networks, workstations, and Linux and OpenBSD servers.  
+@c @end itemize
 
 @item Internet Plus LLC dba MosquitoNet@*Fairbanks, Alaska
 @b{Systems Administrator} (May 2001 - August 2001)
@@ -301,6 +301,8 @@ Secondary responsibilities included writing simple utilities to assist support s
 
 @end table
 
+@page
+
 @node Portfolio
 @unnumberedsubsec Portfolio
 
@@ -312,10 +314,6 @@ directory search tool, and RFC texts related to LDAP.  In addition, Branches use
 schema to determine which attribute types and object classes to allow to be deleted, modified,
 or added when a user is modifying an LDAP entry.
 
-@item BindleKit @* @uref{https://github.com/bindle/BindleKit}
-BindleKit is a collection of Objective-C classes that were created to fulfill a need in
-a particular project but are of use in other Cocoa/Cocoa Touch projects.
-
 @item iOS Ports @* @uref{https://github.com/bindle/iOSPorts}
 iOS Ports is a collection of F/OSS libraries which have been ported to the iOS platform
 for use when creating applications for the iPhone, iPad, or iPod Touch. iOS Ports
@@ -324,10 +322,8 @@ Ports accomplishes this using GNU Make to prepare the source code and Xcode to c
 the binaries.
 
 @item LDAP Kit @* @uref{http://bindle.github.com/LdapKit/}
-LDAP Kit is a framework which provides an Objective-C interface for the OpenLDAP client libraries.
-LDAP Kit manages the conversion between C data types and Objective-C classes, manages background
-threads for executing LDAP tasks, and manages memory allocated by OpenLDAP via NSAutoreleasePool
-objects.
+LDAP Kit is a framework which provides an Objective-C interface for the OpenLDAP client libraries
+by wrapping LDAP tasks in NSOperation objects and providing Objective-C classes for LDAP data types.
 
 @item ODBC Shell @* @uref{https://github.com/bindle/odbcshell}
 ODBC Shell is a utility which provides a simple and polished command line interface
@@ -341,10 +337,11 @@ accelerometer to provide random animated answers.
 
 @end table
 
-@node Social Media
-@unnumberedsubsec Social Media
+@node Online Profiles
+@unnumberedsubsec Online Profiles
 
 @itemize @bullet
+@item iTunes @uref{http://itunes.apple.com/us/artist/bindle-binaries/id284942327}
 @item Ohloh @uref{https://www.ohloh.net/accounts/syzdek}
 @item LinkedIn @uref{http://www.linkedin.com/profile/view?id=70971430}
 @item SourceForge @uref{http://sourceforge.net/users/syzdek}
