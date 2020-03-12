@@ -1,1 +1,309 @@
-Nothing to see here, move along.
+Resume
+******
+
+People
+******
+
+David M. Syzdek
+===============
+
+P.O. Box 200583                             907-980-1151 (day)
+Anchorage, Alaska  99520                    907-279-2001 (fax)
+
+`http://www.bindlebinaries.com/'            david@syzdek.net
+
+
+Summary of Qualifications
+-------------------------
+
+   * Expertise in writing programs and libraries through the use of
+     development tools, such as Xcode, GCC, autoconf, libtool, and
+     automake.
+
+   * Solid understanding of Unix environments, such as Slackware Linux,
+     FreeBSD, Solaris, and OS X.
+
+   * Experience in developing Unix daemons, porting POSIX libraries to
+     iOS, and writing intricate iOS apps.
+
+   * Strong knowledge of LDAP design, including the deployment of Sun
+     One Directory Server and OpenLDAP servers, the integration with
+     applications, schema management, and application development.
+
+Technical Expertise
+-------------------
+
+Languages
+     C, Objective-C, C++, Perl, PHP, Bash, JavaScript, SSI, M4, and XML
+
+APIs
+     OpenLDAP Library, MinGW, AppKit/Cocoa (OS X), UIKit/Cocoa
+     (iPhone/iOS), GNU Libc, GNU Readline, Libtool's libltdl, Pthreads,
+     Berkeley DB, SQLite, iODBC/unixODBC, and Syslog
+
+Concepts
+     MVC Design, Unix Daemons, Networks, Socket Programming (TCP and
+     UDP), Portable Programming, CGI Programming, Cross-Compiling,
+     Library Development, Perl Modules, Source Code Control/Revision
+     Control, Change Management, Software Documentation, and Open
+     Source Licensing
+
+Protocols
+     DNS, FTP, HTTP, HTTPS, IMAP, LDAP, NFS, NTP, SMTP, SNMP, OSPP,
+     POP3, and SSH
+
+Standards
+     Single Unix Specification (SUSv3), GNU Coding Standards, and
+     Apple's Human Interface Guidelines
+
+Development Tools
+     Xcode, LLVM, GCC, GNU Make, GNU Libtool, GNULib, GNU Libc,
+     Autoconf, Automake, CVS, Git, and Texinfo
+
+Environments
+     Slackware Linux, FreeBSD, Solaris, Apple OS X, Windows (98, 2000,
+     XP, Vista, 7), VirtualBox, FreeBSD Jails, and Linux LXC
+
+Software
+     ntpd, ProFTPd Apache, Lighttpd, Redmine, MediaWiki, Nagios,
+     Sendmail, Mailman, Bind, SunOne Directory Server, OpenLDAP,
+     OpenSSH, and MySQL
+
+Professional Experience
+-----------------------
+
+Bindle Binaries
+     Anchorage, Alaska
+     Owner-Operator/Software Developer (2010 - present)
+     Primary responsibilities include writing software for the iPhone
+     platform and Unix based platforms.  Secondary responsibilities
+     include coordinating work with clients to ensure project
+     satisfaction.
+        - Designed and implemented an Objective-C framework for
+          accessing LDAP directories from Mac OS X or iOS.
+
+        - Built and maintained a server environment to support business
+          operations. The server environment utilizes a combination of
+          Linux containers (LXC) hosted  on local hardware and remote
+          instances hosted with VPS providers.
+
+        - Designed and wrote Branches, an LDAP administrator for iOS.
+          Branches parses a servers schema and uses the parsed schema
+          to present intelligent options to users when modifying LDAP
+          entries.
+
+        - Created a portable ODBC client using iODBC and unixODBC for
+          POSIX environments such as OS X, Slackware Linux, and FreeBSD.
+
+        - Created iOSPorts project to port OpenSSL, Cyrus-SASL,
+          OpenLDAP, and PCRE to iOS environment for the iPhone.
+
+        - Wrote a two-part article describing a method to port OpenLDAP
+          to iOS.
+
+        - Developed an RPN calculator for the iPhone OS. The
+          application makes use of the CoreGraphics framework to
+          dynamically generate button images used in the calculator's
+          GUI.
+
+        - Wrote a promotion iPhone application for Blogography.  The
+          application makes use of the CoreAnimation framework to
+          provide animated backgrounds and menu transitions.
+
+        - Wrote an iPhone application which simulated a Magic 8 Ball.
+          The application makes use of the accelerometer to determine
+          if the device is shook or if the device is flipped upside
+          down.
+
+Alaska Communications Systems
+     Anchorage, Alaska
+     Acting IP Engineer II (2003 - 2010)
+     Primary responsibilities include maintaining SunOne Directory
+     Servers, Apache servers, ProFTP servers, and legacy servers from
+     acquired ISP.  Secondary responsibilities include writing internal
+     applications for the ISP business unit and other departments as
+     required.
+        - Developed a modular system to act as a device manager for
+          mobile devices for the ACS cellular network. The system uses
+          information from the device and billing system to properly
+          configure the device for its capabilities and service when an
+          OTA request is initiated.
+
+        - Developed a client library for the Clam AntiVirus Daemon and
+          used the library to create a ProFTPd module for scanning
+          files uploaded by subscribers.
+
+        - Installed and maintained a Redmine ticketing system for
+          tracking department projects and department escalations.
+
+        - Developed a web portal that allows staff to provision virtual
+          domains and allows subscribers to self-manage users within
+          their respective domains.
+
+        - Developed a session management system which authenticates and
+          tracks subscribers.  The system allows multiple web
+          interfaces to share a single session identifier for a
+          subscriber, thus eliminating the need for the subscriber to
+          present credentials to each interface.
+
+        - Developed a provisioning system which allows multiple billing
+          systems to provision services on shared LDAP entries.  This
+          system allows an individual subscriber to have one shared set
+          of credentials for services managed managed by different
+          billing systems.
+
+        - Wrote a library and client which implemented the Over-the-air
+          Service Provisioning Protocol, a proprietary protocol
+          developed by Logica intended to allow clients on TCP/IP
+          networks to communicate with mobile phones.  The client is
+          used by an IVR to activate new mobile phones and update
+          Preferred Roaming Lists (PRL) of existing mobile phones.
+
+        - Wrote miscellaneous web interfaces for managing MMS, WAP, and
+          EVDO service provisioning.
+
+        - Wrote a library and utility that creates NAM data blocks for
+          either IS-683-A or IS-683-C compatible mobile phones.
+
+        - Implemented and maintained a CVS server to manage software
+          packages developed by IP Engineering.
+
+        - Migrated CVS repositories to Git repositories and used
+          git-cvsserver to provide legacy CVS support.
+     Systems Administrator I (August 2001 - 2003)
+     Primary responsibilities included maintaining DNS servers, iPlanet
+     Messaging Servers, iPlanet Directory Servers, Apache servers,
+     ProFTP servers, and legacy servers from acquired ISP.  Secondary
+     responsibilities included writing simple utilities to assist
+     support staff.
+        - Using Bind 9, designed a DNS infrastructure which implemented
+          split views and split horizons.
+
+        - Developed Unix tools using Perl, Bash, and C to simplify
+          server management and to assist technical support personnel.
+
+        - Developed multiple Perl CGI interfaces which provided staff
+          with controlled access to LDAP data and radius data.
+
+        - Developed an iPlanet Messenger Express plug-in using CGI
+          scripting and JavaScript. The plug-in added the ability for
+          subscribers to manage e-mail filters. This involved writing a
+          basic Sieve rule parser in JavaScript.
+
+        - Completed a user audit of an acquired company's provisioning
+          system against the company's billing database. Services were
+          provisioned using Unix passwd and shadow files and the
+          billing information was stored in MS SQL databases.
+
+        - Planned and executed an upgrade of an iPlanet Messaging
+          Server that served roughly 65,000 users. The upgrade
+          including moving from a Sun 4400 to a Sun V880, moving the
+          message store from NFS shares to local arrays, and upgrading
+          the software from version 5.1 to version 5.2.  Detailed
+          plans, time lines accurate to the minute, and proof of
+          repetitive testing was provided to management prior to the
+          actual upgrade.
+
+        - Planned and executed the migration of an acquired ISP
+          (MosquitoNet) consisting of roughly 6,000 users into ACS's
+          ISP infrastructure.  This included coordinated e-mail, web,
+          FTP, DNS, and radius migrations.
+
+        - Implemented a FTP infrastructure that uses LDAP for
+          authentication and supports virtual domains.  Created custom
+          LDAP schema to support infrastructure.
+
+        - Developed a system that uses data from LDAP and local
+          templates to dynamically provision and re-provision virtual
+          domains.
+
+        - Was primary administrator for DNS servers, iPlanet Messaging
+          Servers, LDAP servers, and Unix web servers of the ISP
+          business unit.
+
+Internet Plus LLC dba MosquitoNet
+     Fairbanks, Alaska
+     Systems Administrator (May 2001 - August 2001)
+        - Set up and maintained MySQL databases for virtual hosting
+          subscribers.
+
+        - Assisted with the initial migration of administrative tasks
+          from MosquitoNet to ACS.
+
+        - Initiated the audit of MosquitoNet's provisioning systems.
+
+        - Implemented new web mail system.
+
+        - Managed daily operational tasks, resolved escalations from
+          technical support, and provided a 24-hour response to system
+          outages.
+     Computer Technician (March 2000 - April 2001)
+        - Provided technical support to wireless and business
+          subscribers.  Provided on site response in the event of
+          extended subscriber outages.
+
+        - Installed simple office networks for small businesses.
+
+
+Portfolio
+---------
+
+Branches LDAP Administrator
+     `http://itunes.apple.com/us/app/branches/id499800513'
+     Branches is an iOS LDAP administator. Branches includes a schema
+     browser, directory browser, directory search tool, and RFC texts
+     related to LDAP.  In addition, Branches uses the server's schema
+     to determine which attribute types and object classes to allow to
+     be deleted, modified, or added when a user is modifying an LDAP
+     entry.
+
+iOS Ports
+     `https://github.com/bindle/iOSPorts'
+     iOS Ports is a collection of F/OSS libraries which have been
+     ported to the iOS platform for use when creating applications for
+     the iPhone, iPad, or iPod Touch. iOS Ports facilitates the
+     downloading of the source code and compiling for the target iOS
+     architecture. iOS Ports accomplishes this using GNU Make to
+     prepare the source code and Xcode to compile the binaries.
+
+LDAP Kit
+     `http://bindle.github.com/LdapKit/'
+     LDAP Kit is a framework which provides an Objective-C interface
+     for the OpenLDAP client libraries by wrapping LDAP tasks in
+     NSOperation objects and providing Objective-C classes for LDAP
+     data types.
+
+ODBC Shell
+     `https://github.com/bindle/odbcshell'
+     ODBC Shell is a utility which provides a simple and polished
+     command line interface to querying databases using ODBC. ODBC
+     Shell uses GNU Readline to present the CLI, iODBC to manage ODBC
+     connections, string manipulation to interpret the user's commands,
+     and GNU Autotools to compile and configure the sources.
+
+Ask Dave
+     `https://github.com/bindle/AskDave'
+     `http://itunes.apple.com/us/app/ask-dave/id315173501'
+     AskDave is an entertainment application for the iPhone which uses
+     CoreAnimation and the accelerometer to provide random animated
+     answers.
+
+
+Online Profiles
+---------------
+
+   * iTunes
+     `http://itunes.apple.com/us/artist/bindle-binaries/id284942327'
+
+   * Ohloh `https://www.ohloh.net/accounts/syzdek'
+
+   * LinkedIn `http://www.linkedin.com/profile/view?id=70971430'
+
+   * SourceForge `http://sourceforge.net/users/syzdek'
+
+   * Stack Overflow `http://stackoverflow.com/users/903194/'
+
+   * Github (Personal) `https://github.com/syzdek'
+
+   * Github (Business) `https://github.com/bindle'
+
